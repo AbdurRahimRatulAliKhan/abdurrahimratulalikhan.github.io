@@ -1,0 +1,178 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Ratul
+middle_name:
+last_name: Ali
+contact_note: >
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Research Programmer & CyberSecurity Analyst (.NET & AI/ML), CEH. Expertise in Software Engineering, Cybersecurity, and AI/ML. Based in Dhaka, Bangladesh.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: cybersecurity, .NET, AI/ML, software engineering, data science, CEH, research programmer, Bangladesh
+lang: en
+icon: 🛡️
+
+url: https://abdurrahimratulalikhan.github.io
+baseurl:
+last_updated: false
+impressum_path:
+back_to_top: true
+
+# repo color theme
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: true
+  theme_light: flat
+  theme_dark: gitdimmed
+
+navbar_fixed: true
+footer_fixed: true
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
+bib_search: true
+
+max_width: 930px
+
+serve_og_meta: false
+serve_schema_org: false
+og_image:
+
+google_analytics:
+cronitor_analytics:
+pirsch_analytics:
+openpanel_analytics:
+google_site_verification:
+bing_site_verification:
+
+blog_name: Ratul Ali
+blog_description: Research, Cybersecurity & Software Engineering
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+announcements:
+  enabled: true
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - vendor
+
+keep_files:
+  - CNAME
+  - .nojekyll
+
+plugins:
+  - jekyll-archives
+  - jekyll-diagrams
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jekyll/tagging
+  - jemoji
+
+scholar:
+  last_name: [Ali]
+  first_name: [Ratul, Abdur Rahim]
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_skip_fields: [abbr, abstract, altmetric, arxiv, award, award_name, bibtex_show, blog, code, html, pdf, poster, selected, slides, supp, video, website, preview, additional_info, dimensions, google_scholar_id, video, annotation]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+
+filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, award, award_name, bibtex_show, blog, code, html, pdf, poster, selected, slides, supp, video, website, preview, additional_info, dimensions, google_scholar_id, video, annotation]
+
+max_author_limit: 3
+
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_openpanel_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: true
+enable_video_embedding: false

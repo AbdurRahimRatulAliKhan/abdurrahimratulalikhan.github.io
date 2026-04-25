@@ -1,0 +1,179 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Abdur Rahim Ratul Ali Khan
+    - name: Position
+      value: Research Programmer & CyberSecurity Analyst (.NET & AI/ML), CEH
+    - name: Institution
+      value: IOTA (Senior Consultant IT) | IIT, Jahangirnagar University (MIT Student)
+    - name: Location
+      value: Mohammadpur, Dhaka - 1207, Bangladesh
+    - name: Google Scholar
+      value: "h-index: 2, i10-index: 1, citations: 28 (as of April 25, 2026)"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master's in Information Technology (MIT)
+      institution: Institute of Information Technology (IIT), Jahangirnagar University (JU)
+      year: 2025 – 2026
+      description:
+        - "Concentration: Information Technology (IT)"
+        - "Advisor: Mehrin Anannya"
+        - "Location: Dhaka, Bangladesh"
+    - title: BSc in Computer Science & Engineering
+      institution: Uttara University (UU), School of Engineering
+      year: 2016 – 2020
+      description:
+        - "Thesis: Medication Alert: An Android-Based Hospitality Corps Study for Progressive Repeated Medication Alert System"
+        - "Advisor: Prof. Dr. A.H.M. Saifullah Sadi, Co-Advisor: Prof. Dr. Md. Mijanur Rahman"
+        - "Location: Dhaka, Bangladesh"
+
+- title: Coursework & Training
+  type: time_table
+  contents:
+    - title: Sapporo AI Dojo Global Course
+      institution: CHOWA GIKEN Corporation & Hokkaido University
+      year: 2025 – 2026
+      description:
+        - "PBL Theme: Accuracy Improvement of Road Heating ON/OFF by determining snow prediction"
+        - "Supervisor: Dr. Md. Rashedul Islam, Ayako Matsumiya, Kyohei Takazawa"
+        - "Location: Sapporo, Hokkaido, Japan"
+    - title: R for Applied Statistics and Data Science
+      institution: Institute of Statistical Research and Training (ISRT), University of Dhaka
+      year: 2025
+      description:
+        - "Concentration: Applied Statistics and Data Science"
+        - "Coordination Team: Dr. Mohaimen Mansur, Md. Rasel Biswas, Priom Saha"
+        - "Location: Dhaka, Bangladesh"
+
+- title: Industrial Experience
+  type: time_table
+  contents:
+    - title: Senior Consultant (IT)
+      institution: IOTA
+      year: 2025 – Present
+      description:
+        - "Integrate cybersecurity frameworks and CERT best practices into SDLC using CEH certification and tools for threat analysis"
+        - "Advise on ISO 27001 compliance to iBAS++, IBBPLC, BGCBPLC, SMBPLC, OBPLC, DBPLC, TBPLC, and others"
+        - "Apply AI/ML and data science (predictive modeling, computer vision with YOLO/TensorFlow) for client platforms"
+        - "Location: Dhaka, Bangladesh"
+    - title: Data Management Officer (Programmer)
+      institution: International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)
+      year: 2025
+      description:
+        - "Oversaw CHAMPS LC DSS App and LC Data Portal transition"
+        - "Collaborated with Emory University, USA, for knowledge transfer and system design"
+        - "Designed applications with C#, Angular, .NET Core, and MS SQL Server"
+        - "Applied Clean Architecture principles across the SDLC"
+        - "Location: Dhaka, Bangladesh"
+    - title: Officer (IT)
+      institution: Shahjalal Islami Bank PLC (SJIBPLC)
+      year: 2024 – 2025
+      description:
+        - "SOC Operations: Used Trend Vision One™, Trellix, and Tenable for security monitoring and threat analysis"
+        - "Managed CVEs for risk mitigation and compliance with ISO 27001, NIST, and CERT frameworks"
+        - "Built and enhanced IDMS and CCAPTS with .NET Core, Angular, and PostgreSQL"
+        - "Implemented Clean Architecture with ISO/IEC/IEEE- and CERT-based secure SDLC practices"
+        - "Location: Dhaka, Bangladesh"
+    - title: Software Engineer
+      institution: Azolution Software and Engineers Ltd. (AzolutionSE)
+      year: 2023 – 2024
+      description:
+        - "Second Team Lead (HRIS) - Recruitment, Vehicle & Canteen Modules using .NET Framework 4.5"
+        - "Clients: Bashundhara Group, Modhumoti Bank PLC, NRBC Bank PLC, and Renata"
+        - "Worked within Three-Tier Architecture across the full SDLC"
+        - "Location: Dhaka, Bangladesh"
+    - title: Entry-Level Software Engineer
+      institution: Devsfair
+      year: 2021 – 2022
+      description:
+        - "Contributed to Backend API for 'illumiya' NeithAPI using .NET Core"
+        - "Frontend and database work for 'Aqua Digital Rising Limited' AquaSupportMonitorUX using Bootstrap"
+        - "Collaboration via Slack; Clean Architecture and SDLC best practices"
+        - "Location: Dhaka, Bangladesh"
+
+- title: Honors, Fellowships & Offers
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - "Fellowship: Granted opportunity to participate in the TOAST Doctoral Network Training School, University of Siena, Italy → Aarhus University, Denmark (Ivan Kudyk, Ratul Ali, Fernando Hernandez)"
+        - "Job Offer: Software Engineer @ LEADS Corporation Limited, Dhaka, Bangladesh"
+    - year: 2022
+      items:
+        - "Job Offer: Trainee Programmer @ Generation-Next IT Solution Ltd., Dhaka, Bangladesh"
+    - year: 2021
+      items:
+        - "Job Offer: Software Development Intern @ GAOTek Inc., New York, USA"
+
+- title: Certifications
+  type: nested_list
+  contents:
+    - title: Cybersecurity
+      items:
+        - Certified Ethical Hacker (CEH) – Pearson
+        - CompTIA Cybersecurity Analyst (CySA+) – Pearson
+        - Certified Information Systems Auditor (CISA) – Packt
+        - Certified Information Security Manager (CISM) – Pearson
+        - ISC² Cloud Basics – Coursera
+    - title: Programming & Development
+      items:
+        - Software Engineer Certificate (CSE) – HackerRank
+        - SQL (Advanced) Certificate – HackerRank
+        - Rest API (Intermediate) Certificate – HackerRank
+        - Problem Solving (Intermediate) Certificate – HackerRank
+        - Angular (Intermediate) Certificate – HackerRank
+        - R (Intermediate) Certificate – HackerRank
+        - Microsoft .NET Technologies (26+ Modules) – Microsoft
+    - title: Research & Data Science
+      items:
+        - Certified Research Peer Reviewer (CRPR) – Springer Nature
+        - R for Applied Statistics and Data Science – ISRT, University of Dhaka
+        - Data Scientist with Python Track – Datacamp (Ongoing)
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages & Crafts
+      items:
+        - "C#, TypeScript, HTML, CSS, R/Python, Java"
+        - "Problem-Solving, Algorithms & Data Structures, OOP"
+    - title: Frameworks & Tools
+      items:
+        - ".NET Technologies, Angular, Bootstrap"
+        - "Visual Studio/VS Code, RStudio, Android Studio, LaTeX"
+    - title: Databases
+      items:
+        - MS SQL Server, MySQL Workbench, PostgreSQL
+    - title: AI/ML & Cybersecurity
+      items:
+        - "YOLO, VoTT, TensorFlow/PyTorch, Anaconda, Streamlit"
+        - "Trend Vision One™, Apex Central, Trellix, Tenable"
+        - "ISO 27001, NIST Framework, GRC"
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Cybersecurity
+      items:
+        - SOC Operations and Threat Analysis
+        - ISO 27001 Implementation in Financial Organizations
+        - Ethical Hacking and Vulnerability Assessment
+    - title: Software Engineering
+      items:
+        - Clean Architecture and .NET Enterprise Applications
+        - Full-Stack Development (C#, Angular, TypeScript)
+        - Secure Software Development Life Cycle (SDLC)
+    - title: AI/ML & Data Science
+      items:
+        - Computer Vision (YOLO, TensorFlow/PyTorch)
+        - Predictive Modeling and Machine Learning
+        - Acoustic Signal Processing and Deep Learning
+
+- title: Professional Memberships
+  type: list
+  contents:
+    - "Springer Nature, Peer Reviewer (Software Engineering, Data Science, Cybersecurity, AI/ML) – 2024 to Present"
+    - "ORCID: 0000-0003-0460-6141 – 2024 to Present"
